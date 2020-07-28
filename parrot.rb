@@ -1,4 +1,4 @@
-def print_and_return
+def return
   puts "Squawk!"
   phrase = parrot("Pretty bird!)")
   "parrot"
