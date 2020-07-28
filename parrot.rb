@@ -1,5 +1,6 @@
-def parrot
+def parrot(name = "")
   puts "Squawk"
+  phrase = parrot
 end
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
