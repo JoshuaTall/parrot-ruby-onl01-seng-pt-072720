@@ -1,1 +1,1 @@
-def parrot
+def print_and_return
