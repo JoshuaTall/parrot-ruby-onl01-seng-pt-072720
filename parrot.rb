@@ -1,21 +1,5 @@
-def parrot(name = "")
+def print_and_return_name
   puts "Squawk"
-  phrase = parrot
-
-
-  it 'should return the default phrase, "Squawk!" when called without any arguments' do
-    phrase = parrot
-    expect(phrase).to eq("Squawk!")
-  end
-
-  it 'should output the given phrase when called with an argument' do
-    expect($stdout).to receive(:puts).with("Pretty bird!")
-    parrot("Pretty bird!")
-  end
-
-  it 'should return the given phrase when called with an argument' do
-    phrase = parrot("Pretty bird!")
-
-    expect(phrase).to eq("Pretty bird!")
-  end
+  phrase = "parrot"
+  parrot = "Pretty bird!"
 end
