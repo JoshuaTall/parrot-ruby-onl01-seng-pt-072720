@@ -1,4 +1,4 @@
-def print_and_return_name("Pretty bird!")
+def parrot
   puts "Squawk!"
   "parrot"
 end
