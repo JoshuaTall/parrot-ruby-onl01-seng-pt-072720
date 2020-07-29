@@ -1,5 +1,4 @@
-def print_and_return_phrase
+def print_and_return_parrot
   puts "Squawk!"
-  phrase = "parrot"
   "parrot"
 end
